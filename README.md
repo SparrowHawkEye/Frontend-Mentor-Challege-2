@@ -31,9 +31,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenhot-desktop.png)
-![](./Screenhot-hover.png)
-![](./Screenhot-mobile.png)
+![](./Screenshot-desktop.png)
+![](./Screenshot-hover.png)
+![](./Screenshot-mobile.png)
 
 ### Links
 
