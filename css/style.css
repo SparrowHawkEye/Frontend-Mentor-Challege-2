@@ -1,0 +1,139 @@
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+font-family: 'Lexend Deca', sans-serif;
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+font-family: 'Big Shoulders Display', cursive;
+- Weights: 700
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  margin: 10% auto;
+}
+.container {
+  display: flex;
+  width: 45%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(23, 48, 48, 0.397);
+}
+.column {
+  padding: 3.2rem;
+}
+.col-sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.col-suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.col-luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+.icon {
+  width: 4.8rem;
+}
+
+.heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.2rem;
+  color: hsl(0, 0%, 95%);
+  padding: 1.6rem 0;
+}
+.info {
+  margin-bottom: 9.4rem;
+}
+.btn {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 600;
+  color: hsl(0, 0%, 95%);
+  border: none;
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1.2rem 2.4rem;
+  border-radius: 48px;
+  margin-bottom: 2.4rem;
+  transition: all 0.3s;
+}
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+.btn-suvs {
+  color: hsl(184, 100%, 22%);
+}
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover,
+.btn:active {
+  color: hsla(0, 0%, 100%, 0.75);
+  background: none;
+  box-shadow: 0 0 0 3px hsla(0, 0%, 100%, 0.75);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #555;
+  margin-top: 2.4rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 49rem) {
+  .container {
+    flex-direction: column;
+  }
+  .col-sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  .col-luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
