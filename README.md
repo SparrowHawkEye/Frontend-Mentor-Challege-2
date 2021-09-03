@@ -1,6 +1,6 @@
 # 3-Column Preview Card Component
 
-This is MY second Frontend Mentors challenge using HTML and CSS.
+This is My second Frontend Mentors challenge using HTML and CSS.
 
 # Frontend Mentor - 3-column preview card component solution
 
